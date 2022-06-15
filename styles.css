@@ -13,20 +13,30 @@ body{
   font-family: "Ubuntu";
 }
 h1{
-  font-family: "Montserrat-Black","sans-serif";
+  font-family: "Montserrat-Black",sans-serif;
   font-size: 4.5rem;
   line-height: 1.5;
+  font-weight: bolder;
   color:white;
+}
+h2{
+  font-family:"Montserrat-Bold";
+  fomt-size:3rem;
+  font-weight: bold;
+  line-height:1.5;
+  color:#1f1f1f1f;
 }
 h3{
   font-family: "Montserrat-Bold";
   font-size:1.5rem;
+  font-weight:bolder;
 }
 p{
   color:#8f8f8f;
 }
 /*Navigation bar*/
 .navbar{
+  padding: 0 0 0 4.5rem;
 
 }
 .navbar-brand{
@@ -59,4 +69,35 @@ p{
 }
 .icon:hover{
   color:#ff4c68
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align:center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-img{
+  width: 15%;
+  border-radius: 100%;
+  padding: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  padding:20px 20px 50px;
+}
+.carousel-item{
+  padding:5% 15%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col
+{
+  padding:3% 2%;
 }
