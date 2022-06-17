@@ -1,13 +1,18 @@
 #title{
   background-color: #ff4c68;
   color:"#fff";
+  font-family: "Ubuntu";
 }
 .container-fluid{
-
+  padding:5% 15% 25%;
+  position: relative;
 }
 .title-image{
-  width:40%;
+  width:20%;
   transform: rotate(25deg);
+  position: absolute;
+  /*zindex:-1;*/
+
 }
 body{
   font-family: "Ubuntu";
@@ -58,6 +63,9 @@ p{
 /*features*/
 #features{
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
+/*  z-index: 1;*/
 }
 .feature-box{
   text-align: center;
@@ -100,4 +108,39 @@ p{
 .pricing-col
 {
   padding:3% 2%;
+}
+/*cta*/
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-family: "Montserrat-Black"
+  font-size:3.5rem;
+  line-height: 1.5;
+}
+/*footer*/
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+.social-button{
+  display: inline-block;
+  margin :10px 20px;
+}
+
+@media (max-width:1028px){
+#title{
+  text-align: center;
+}
+  .title-image{position: static;
+  transform: rotate(0);
+
+}
+.container-fluid{
+  padding:0 ;
+}
 }
